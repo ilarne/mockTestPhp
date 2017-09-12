@@ -24,9 +24,28 @@ class Product
         }
     }
 
-    public function getStock($productId)
+    public function getStock($productService)
     {
-        if ($this->productService->returnStock() > 5)
+        $stockCheck = $productService->returnStock();
+
+        if ($stockCheck === 1)
+        {
+            return 'Only one left in stock!';
+        }
+
+        if ($stockCheck < 5 && $stockCheck > 1)
+        {
+            return 'Warning low stock!';
+        }
+
+        if ($stockCheck > 5)
+        {
             return 'In Stock';
+        }
+
+
+
+
+
     }
 }

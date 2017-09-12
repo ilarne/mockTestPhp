@@ -62,6 +62,27 @@ class ProductTest extends TestCase
 
     public function testReturnsLowStock()
     {
-        
+        $productIdMock = $this->getMockBuilder('ProductService')
+            ->setMethods(array('returnStock'))->getMock();
+
+        $productIdMock->method('returnStock')
+            ->willReturn(3);
+
+        $product = new Product($productIdMock);
+
+        $this->assertEquals('Warning low stock!', $product->getStock($productIdMock));
+    }
+
+    public function testReturnsOneLeftInStock()
+    {
+        $productIdMock = $this->getMockBuilder('ProductService')
+            ->setMethods(array('returnStock'))->getMock();
+
+        $productIdMock->method('returnStock')
+            ->willReturn(1);
+
+        $product = new Product($productIdMock);
+
+        $this->assertEquals('Only one left in stock!', $product->getStock($productIdMock));
     }
 }

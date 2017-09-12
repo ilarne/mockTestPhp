@@ -3,6 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="1872b7f9-896c-4071-9ecc-fb4036d0ca09" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/composer.lock" afterPath="$PROJECT_DIR$/composer.lock" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Product.php" afterPath="$PROJECT_DIR$/src/Product.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tests/ProductTest.php" afterPath="$PROJECT_DIR$/tests/ProductTest.php" />
     </list>
@@ -29,8 +30,8 @@
           <file leaf-file-name="Product.php" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/src/Product.php">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="498">
-                  <caret line="29" column="28" lean-forward="false" selection-start-line="29" selection-start-column="28" selection-end-line="29" selection-end-column="28" />
+                <state relative-caret-position="405">
+                  <caret line="34" column="0" lean-forward="true" selection-start-line="34" selection-start-column="0" selection-end-line="34" selection-end-column="0" />
                   <folding />
                 </state>
               </provider>
@@ -39,12 +40,12 @@
         </leaf>
       </split-first>
       <split-second>
-        <leaf>
+        <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
           <file leaf-file-name="ProductTest.php" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/tests/ProductTest.php">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="462">
-                  <caret line="64" column="8" lean-forward="false" selection-start-line="64" selection-start-column="8" selection-end-line="64" selection-end-column="8" />
+                <state relative-caret-position="588">
+                  <caret line="87" column="1" lean-forward="true" selection-start-line="87" selection-start-column="1" selection-end-line="87" selection-end-column="1" />
                   <folding />
                 </state>
               </provider>
@@ -66,8 +67,8 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/src/ServiceConsumer.php" />
-        <option value="$PROJECT_DIR$/src/Product.php" />
         <option value="$PROJECT_DIR$/tests/ProductTest.php" />
+        <option value="$PROJECT_DIR$/src/Product.php" />
       </list>
     </option>
   </component>
@@ -81,9 +82,9 @@
     <servers />
   </component>
   <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" interpreter_name="PHP 5.6" />
-  <component name="ProjectFrameBounds">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="y" value="23" />
-    <option name="width" value="1450" />
+    <option name="width" value="1440" />
     <option name="height" value="797" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -102,28 +103,23 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
             <path>
-              <item name="mockTask" type="b2602c69:ProjectViewProjectNode" />
-              <item name="mockTask" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="mockTestPhp" type="b2602c69:ProjectViewProjectNode" />
+              <item name="mockTestPhp" type="2a2b976b:PhpTreeStructureProvider$1" />
             </path>
             <path>
-              <item name="mockTask" type="b2602c69:ProjectViewProjectNode" />
-              <item name="mockTask" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="src" type="2a2b976b:PhpTreeStructureProvider$1" />
-            </path>
-            <path>
-              <item name="mockTask" type="b2602c69:ProjectViewProjectNode" />
-              <item name="mockTask" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="tests" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="mockTestPhp" type="b2602c69:ProjectViewProjectNode" />
+              <item name="mockTestPhp" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="composer.phar" type="f7f5664e:PsiPharFileNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scratches" />
       <pane id="Scope" />
     </panes>
   </component>
@@ -215,6 +211,7 @@
       <workItem from="1504536557116" duration="4718000" />
       <workItem from="1505207708410" duration="4657000" />
       <workItem from="1505220450554" duration="7643000" />
+      <workItem from="1505230979605" duration="1175000" />
     </task>
     <servers />
   </component>
@@ -245,13 +242,13 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="17018000" />
+    <option name="totallyTimeSpent" value="18193000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="23" width="1450" height="797" extended-state="0" />
+    <frame x="0" y="23" width="1440" height="797" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33573487" sideWeight="0.5" order="1" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33547926" sideWeight="0.5" order="1" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -314,6 +311,22 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/Product.php">
       <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="435">
+          <caret line="29" column="28" lean-forward="false" selection-start-line="29" selection-start-column="28" selection-end-line="29" selection-end-column="28" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tests/ProductTest.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Product.php">
+      <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="171">
           <caret line="9" column="5" lean-forward="false" selection-start-line="9" selection-start-column="5" selection-end-line="9" selection-end-column="5" />
           <folding />
@@ -344,18 +357,26 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/composer.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" column="7" lean-forward="true" selection-start-line="5" selection-start-column="7" selection-end-line="5" selection-end-column="22" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/Product.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="498">
-          <caret line="29" column="28" lean-forward="false" selection-start-line="29" selection-start-column="28" selection-end-line="29" selection-end-column="28" />
+        <state relative-caret-position="405">
+          <caret line="34" column="0" lean-forward="true" selection-start-line="34" selection-start-column="0" selection-end-line="34" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/tests/ProductTest.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="462">
-          <caret line="64" column="8" lean-forward="false" selection-start-line="64" selection-start-column="8" selection-end-line="64" selection-end-column="8" />
+        <state relative-caret-position="588">
+          <caret line="87" column="1" lean-forward="true" selection-start-line="87" selection-start-column="1" selection-end-line="87" selection-end-column="1" />
           <folding />
         </state>
       </provider>
